@@ -23,7 +23,7 @@ export const UserHeader = () => {
 
   return (
     <header className={styles.header}>
-      <h1 class="title">{title}</h1>
+      <h1 className="title">{title}</h1>
       <UserHeaderNav />
     </header>
   );
