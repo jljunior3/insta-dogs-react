@@ -23,7 +23,7 @@ export const UserHeaderNav = () => {
       {mobile && (
         <button
           aria-label="Menu"
-          class={`${styles.mobileButton} ${
+          className={`${styles.mobileButton} ${
             mobileMenu && styles.mobileButtonActive
           }`}
           onClick={() => setMobileMenu(!mobileMenu)}
